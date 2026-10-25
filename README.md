@@ -1,4 +1,4 @@
-# Packet Capture SDK - Windows Kernel Ethernet I/O
+# Packet Capture SDK - Microsoft-signed Windows Kernel Ethernet I/O
 
 **Capture Ethernet frames and send explicit raw L2 frames through a selected Windows adapter using a compact C++ API.**
 
@@ -6,7 +6,7 @@ A private NDIS lightweight filter supplies bounded IN/OUT records to a native ap
 
 ![Native application in explicitly offline, synthetic preview mode](docs/app.png)
 
-**Engineering preview, Windows x64.** The public ZIP contains the application, CLI, C++ example, SDK and installer source. Microsoft signing is pending; no unsigned driver, test certificate or installable setup executable belongs in this preview. The private candidate is qualified separately in an isolated VM; see [validation](docs/VALIDATION.md). Do not disable Windows signature enforcement to use a public download.
+**Microsoft-signed evaluation, Windows x64.** The complete 0.1.1 ZIP includes the application, CLI, C++ example, SDK, installer sources and self-contained UI/console installers with the signed 0.1.0.0 driver. Installation, live functionality and removal passed Windows 10 x64 tests with test-signing disabled, normally and under targeted Driver Verifier. See [validation and boundaries](docs/VALIDATION.md).
 
 ## What it does
 
@@ -24,8 +24,8 @@ Records describe the frame presented at this filter boundary, including offload 
 
 ## Try the application
 
-1. Download the [complete preview ZIP](https://github.com/titanfyre/Packet-Capture-SDK/releases), extract it and run `PacketCaptureStudio.exe --preview` for a labelled offline tour. It never opens the driver or sends a frame.
-2. Request evaluation access from **`titancsa` on Discord**. Installable setup binaries become available after the driver returns from Microsoft signing and the signed package passes installation tests.
+1. Download the [complete signed ZIP](https://github.com/titanfyre/Packet-Capture-SDK/releases/tag/v0.1.1), extract it and run `PacketCaptureStudio.exe --preview` for a labelled offline tour. It never opens the driver or sends a frame.
+2. Request a Packet Capture SDK access key from **`titancsa` on Discord** for live capture and transmission. The UI and console installers are included in the ZIP.
 3. With a supported signed release, run `PacketCaptureSetup.exe` as administrator and choose **Install / check**. Restart only when requested. Both UI and console setups share the same INetCfg installation core and require an exact Microsoft-root catalog and INF/SYS membership.
 4. Open the studio as administrator, choose an exact adapter, enter the product access key and select **Authorize**, then **Start capture**. Capture never starts automatically. **Stop** clears queued records.
 5. Send a frame only when its destination, payload and target adapter are part of your authorized test. Enter complete Ethernet bytes in the hex box, then select **Send frame**. There is no automatic replay or forwarding loop.
