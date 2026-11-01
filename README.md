@@ -2,6 +2,17 @@
 
 **Capture Ethernet frames and send explicit raw L2 frames through a selected Windows adapter using a compact C++ API.**
 
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Get the full version without demo restrictions**
+>
+> **Discord username: `titancsa`**
+>
+> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full version without the demo time limit**, and mention **Packet Capture SDK**.
+>
+> Tell me whether you need personal use, business integration or OEM redistribution, and ask for pricing and license / activation instructions.
+<!-- full-version-contact:end -->
+
 A private NDIS lightweight filter supplies bounded IN/OUT records to a native application. Use it for authorized protocol laboratories, diagnostic integrations, software networking fixtures and OEM development.
 
 ![Native application in explicitly offline, synthetic preview mode](docs/app.png)
