@@ -1,6 +1,6 @@
 # Validation and boundaries
 
-Application/SDK **0.1.1**, Microsoft-signed driver **0.1.0.0**, Windows x64. The complete release includes actual self-contained UI/console installers; the kernel implementation stays private.
+Application/SDK **0.1.1**, Microsoft-signed driver **0.1.0.0**, Windows x64. The complete release includes actual self-contained UI/console installers; Evaluation driver source is documented in [driver/README.md](../driver/README.md); full/commercial implementation is excluded.
 
 ## Signed package identity
 
@@ -30,4 +30,4 @@ Bounded Ethernet capture and raw-frame transmission on one explicitly selected a
 
 Windows 11, Secure Boot/HVCI, representative physical NICs, offloads, concurrent security/filter products, suspend/resume, recovery and prolonged workloads remain separate qualification work. Functional delay checks are not latency/throughput benchmarks. Microsoft signing is not WHQL certification, exhaustive testing, zero overhead or a guarantee of universal compatibility.
 
-Signed per-handle permissions last at most one hour and can be explicitly renewed while a product key is enabled. Revocation refuses new grants rather than instantly cancelling accepted permissions. Private kernel source, CABs, PDBs, lab material and signing credentials are excluded from public repositories and downloads.
+Signed per-handle permissions last at most one hour and can be explicitly renewed while a product key is enabled. Revocation refuses new grants rather than instantly cancelling accepted permissions. Evaluation driver source is documented in [driver/README.md](../driver/README.md). Full/commercial implementation, CABs, PDBs, private lab material and signing credentials are excluded from public repositories and downloads.
