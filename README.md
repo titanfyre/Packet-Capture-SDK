@@ -85,7 +85,7 @@ Titan-authored driver code. Third-party source licenses and existing application
 licenses remain applicable. Full/commercial implementation and private signing or
 activation material are excluded.
 
-Visual Studio 2022 Desktop C++, CMake and a Windows SDK are required for the public app. No private kernel source or WDK is needed for that build.
+Visual Studio 2022 Desktop C++, CMake and a Windows SDK are required for the public app. No driver source or WDK is needed for that build.
 
 ```powershell
 .\Build.ps1
