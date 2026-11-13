@@ -6,24 +6,24 @@ Choisis le paquet a installer. Installe son outil habituel (Node.js/npm, Python/
 
 Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe par le SDK Java). Flutter utilise le SDK Dart ; le chargement de la DLL doit etre configure dans l application. AutoHotInterceptor .NET utilise .NET Framework4.8.
 
-| Paquet | Registre | Disponibilite | Installation / utilisation |
-| --- | --- | --- | --- |
-| `packet-capture-sdk` | vcpkg | Registre TitanCSA disponible (configuration ci-dessous) | `vcpkg install packet-capture-sdk:x64-windows` |
-| `packet-capture-sdk` | Conan | Registre TitanCSA disponible (configuration ci-dessous) | `conan install --requires=packet-capture-sdk/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
-| `Packet-Capture-SDK.Native` | NuGet | Publie et verifie | `Install-Package Packet-Capture-SDK.Native -Version 0.1.1` |
-| `PacketCaptureSDK.SDK` | NuGet | Publie et verifie | `dotnet add package PacketCaptureSDK.SDK --version 1.0.0` |
-| `packet_capture_sdk` | PyPI | Pas encore disponible / validation en cours | Commande prevue apres publication : `python -m pip install packet-capture-sdk==1.0.0` |
-| `packet-capture-sdk` | Conda | Canal TitanCSA disponible ; acceptation conda-forge encore en attente | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge packet-capture-sdk` |
-| `packet_capture_sdk` | crates.io | Publie et verifie | `cargo add packet-capture-sdk@1.0.0` |
-| `packet_capture_sdk` | npm | Pas encore disponible / validation en cours | Commande prevue apres publication : `npm install packet-capture-sdk@1.0.0` |
-| `io.github.titancsa:packet-capture-sdk` | Maven Central | Publie et verifie | `io.github.titancsa:packet-capture-sdk:1.0.0 (pom.xml / Gradle)` |
-| `com.github.titanfyre:Packet-Capture-SDK` | JitPack | Publie et verifie | `com.github.titanfyre:Packet-Capture-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| `github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules` | Go Modules | Publie et verifie | `go get github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules@v1.0.0` |
-| `github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules` | pkg.go.dev | Publie et verifie | `Documentation : https://pkg.go.dev/github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules@v1.0.0` |
-| `packet_capture_sdk` | PowerShell Gallery | Publie et verifie | `Install-Module PacketCaptureSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| `packet_capture_sdk` | pub.dev | Pas encore disponible / validation en cours | Commande prevue apres publication : `dart pub add packet_capture_sdk:1.0.0` |
-| `packet_capture_sdk` | RubyGems | Publie et verifie | `gem install packet-capture-sdk -v 1.0.0` |
-| `packet_capture_sdk` | Packagist | Pas encore disponible / validation en cours | Commande prevue apres publication : `composer require titancsa/packet-capture-sdk:1.0.0` |
+| Registre | Paquet | Installation / utilisation |
+| --- | --- | --- |
+| vcpkg | `packet-capture-sdk` | `vcpkg install packet-capture-sdk:x64-windows` |
+| Conan | `packet-capture-sdk` | `conan install --requires=packet-capture-sdk/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
+| NuGet | `Packet-Capture-SDK.Native` | `Install-Package Packet-Capture-SDK.Native -Version 0.1.1` |
+| NuGet | `PacketCaptureSDK.SDK` | `dotnet add package PacketCaptureSDK.SDK --version 1.0.0` |
+| PyPI | `packet_capture_sdk` | Commande prevue apres publication : `python -m pip install packet-capture-sdk==1.0.0` |
+| Conda | `packet-capture-sdk` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge packet-capture-sdk` (canal TitanCSA) |
+| crates.io | `packet_capture_sdk` | `cargo add packet-capture-sdk@1.0.0` |
+| npm | `packet_capture_sdk` | Commande prevue apres publication : `npm install packet-capture-sdk@1.0.0` |
+| Maven Central | `io.github.titancsa:packet-capture-sdk` | `io.github.titancsa:packet-capture-sdk:1.0.0 (pom.xml / Gradle)` |
+| JitPack | `com.github.titanfyre:Packet-Capture-SDK` | `com.github.titanfyre:Packet-Capture-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
+| Go Modules | `github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules` | `go get github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules@v1.0.0` |
+| pkg.go.dev | `github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules@v1.0.0` |
+| PowerShell Gallery | `packet_capture_sdk` | `Install-Module PacketCaptureSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| pub.dev | `packet_capture_sdk` | Commande prevue apres publication : `dart pub add packet_capture_sdk:1.0.0` |
+| RubyGems | `packet_capture_sdk` | `gem install packet-capture-sdk -v 1.0.0` |
+| Packagist | `packet_capture_sdk` | Commande prevue apres publication : `composer require titancsa/packet-capture-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 
