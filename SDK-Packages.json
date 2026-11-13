@@ -203,7 +203,7 @@
       "api_prefix": "packet_capture_sdk_json_"
     },
     "JavaScript/npm": {
-      "status": "awaiting_browser_publication_authentication",
+      "status": "registry_publication_requires_action",
       "name": "packet-capture-sdk",
       "version": "1.0.0",
       "directory": "Packet-Capture-SDK-JavaScript-npm",
