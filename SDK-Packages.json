@@ -131,29 +131,28 @@
       "github_directory": "packaging/native"
     },
     "CPP/nuget": {
-      "status": "account_email_confirmed_requires_matching_trusted_publishing_policy",
+      "status": "published_payload_verified",
       "name": "Packet-Capture-SDK.Native",
       "version": "0.1.1",
-      "registry_published": false,
-      "consumer_build_verified": true,
+      "url": "https://www.nuget.org/packages/Packet-Capture-SDK.Native/0.1.1",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
       "documentation_bundled": true,
-      "publication_on_hold_by_owner": false,
-      "nuget_publication_status": "ready_requires_trusted_publishing_policy"
+      "publication_on_hold_by_owner": false
     },
     "NET/nuget": {
-      "status": "built_verified_requires_trusted_publishing_policy",
+      "status": "published_payload_verified",
       "name": "PacketCaptureSDK.SDK",
       "version": "1.0.0",
-      "directory": "Packet-Capture-SDK-NET-nuget",
-      "registry_published": false,
-      "documentation_bundled": true,
-      "url": null,
+      "url": "https://www.nuget.org/packages/PacketCaptureSDK.SDK/1.0.0",
+      "public_payload_verified": true,
       "public_consumer_verified": false,
-      "module": "packet_capture_sdk",
-      "dll_name": "PacketCaptureSDKJsonSDK.dll",
-      "api_prefix": "packet_capture_sdk_json_",
-      "publication_on_hold_by_owner": false,
-      "nuget_publication_status": "ready_requires_trusted_publishing_policy"
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
     },
     "Python/pypi": {
       "status": "built_fixture_and_production_verified",
@@ -203,13 +202,13 @@
       "api_prefix": "packet_capture_sdk_json_"
     },
     "JavaScript/npm": {
-      "status": "registry_publication_requires_action",
+      "status": "stopped_before_submission",
       "name": "packet-capture-sdk",
       "version": "1.0.0",
       "directory": "Packet-Capture-SDK-JavaScript-npm",
       "registry_published": false,
       "documentation_bundled": true,
-      "url": "https://www.npmjs.com/package/packet-capture-sdk",
+      "url": null,
       "public_consumer_verified": false,
       "module": "packet_capture_sdk",
       "dll_name": "PacketCaptureSDKJsonSDK.dll",
