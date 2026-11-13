@@ -1,0 +1,3 @@
+include README.md LICENSE
+recursive-include packet_capture_sdk *.py *.dll
+recursive-include docs *

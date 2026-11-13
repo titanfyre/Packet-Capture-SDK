@@ -12,6 +12,76 @@
         ]
       },
       "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "Packet-Capture-SDK-C-ffi",
+      "distribution": "Native C ABI adapter to the original project SDK",
+      "dll": "PacketCaptureSDKJsonSDK.dll",
+      "api_prefix": "packet_capture_sdk_json_"
+    },
+    {
+      "directory": "Packet-Capture-SDK-Python-pypi",
+      "language": "Python",
+      "registry": "pypi",
+      "name": "packet-capture-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Packet-Capture-SDK-Ruby-rubygems",
+      "language": "Ruby",
+      "registry": "rubygems",
+      "name": "packet-capture-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Packet-Capture-SDK-Go-modules",
+      "language": "Go",
+      "registry": "modules",
+      "name": "packet-capture-sdk",
+      "version": "v1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Packet-Capture-SDK-Rust-cargo",
+      "language": "Rust",
+      "registry": "cargo",
+      "name": "packet-capture-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Packet-Capture-SDK-Java-maven",
+      "language": "Java",
+      "registry": "maven",
+      "name": "packet-capture-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Packet-Capture-SDK-Dart-pub-dev",
+      "language": "Dart",
+      "registry": "pub-dev",
+      "name": "packet_capture_sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Packet-Capture-SDK-NET-nuget",
+      "language": "NET",
+      "registry": "nuget",
+      "name": "PacketCaptureSDK.SDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Packet-Capture-SDK-PowerShell-gallery",
+      "language": "PowerShell",
+      "registry": "gallery",
+      "name": "PacketCaptureSDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
     }
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",

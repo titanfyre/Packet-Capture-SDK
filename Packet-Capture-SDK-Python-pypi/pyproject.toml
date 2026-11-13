@@ -1,0 +1,18 @@
+[build-system]
+requires=["setuptools>=77","wheel>=0.43"]
+build-backend="setuptools.build_meta"
+[project]
+name="packet-capture-sdk"
+version="1.0.0"
+description="Windows x64 Packet-Capture-SDK direct SDK"
+requires-python=">=3.10"
+license="MIT"
+readme="README.md"
+[project.urls]
+Repository="https://github.com/titanfyre/Packet-Capture-SDK"
+[tool.setuptools]
+packages=["packet_capture_sdk"]
+[tool.setuptools.package-data]
+packet_capture_sdk=["*.dll"]
+[tool.setuptools.data-files]
+"share/packet-capture-sdk/docs"=["docs/*","LICENSE"]
