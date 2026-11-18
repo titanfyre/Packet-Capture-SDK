@@ -104,18 +104,18 @@ Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK 
 | Conan | `packet-capture-sdk` | `conan install --requires=packet-capture-sdk/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | `Packet-Capture-SDK.Native` | `Install-Package Packet-Capture-SDK.Native -Version 0.1.1` |
 | NuGet | `PacketCaptureSDK.SDK` | `dotnet add package PacketCaptureSDK.SDK --version 1.0.0` |
-| PyPI | `packet_capture_sdk` | Commande prevue apres publication : `python -m pip install packet-capture-sdk==1.0.0` |
+| PyPI | `packet-capture-sdk` | Commande prevue apres publication : `python -m pip install packet-capture-sdk==1.0.0` |
 | Conda | `packet-capture-sdk` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge packet-capture-sdk` (canal TitanCSA) |
-| crates.io | `packet_capture_sdk` | `cargo add packet-capture-sdk@1.0.0` |
-| npm | `packet_capture_sdk` | Commande prevue apres publication : `npm install packet-capture-sdk@1.0.0` |
+| crates.io | `packet-capture-sdk` | `cargo add packet-capture-sdk@1.0.0` |
+| npm | `packet-capture-sdk` | Commande prevue apres publication : `npm install packet-capture-sdk@1.0.0` |
 | Maven Central | `io.github.titancsa:packet-capture-sdk` | `io.github.titancsa:packet-capture-sdk:1.0.0 (pom.xml / Gradle)` |
 | JitPack | `com.github.titanfyre:Packet-Capture-SDK` | `com.github.titanfyre:Packet-Capture-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules` | `go get github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules@v1.0.0` |
-| PowerShell Gallery | `packet_capture_sdk` | `Install-Module PacketCaptureSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| PowerShell Gallery | `PacketCaptureSDK` | `Install-Module PacketCaptureSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `packet_capture_sdk` | Commande prevue apres publication : `dart pub add packet_capture_sdk:1.0.0` |
-| RubyGems | `packet_capture_sdk` | `gem install packet-capture-sdk -v 1.0.0` |
-| Packagist | `packet_capture_sdk` | Commande prevue apres publication : `composer require titancsa/packet-capture-sdk:1.0.0` |
+| RubyGems | `packet-capture-sdk` | `gem install packet-capture-sdk -v 1.0.0` |
+| Packagist | `titancsa/packet-capture-sdk` | Commande prevue apres publication : `composer require titancsa/packet-capture-sdk:1.0.0` |
 
 Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Packet-Capture-SDK/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
 
