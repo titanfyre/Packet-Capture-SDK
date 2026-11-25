@@ -3,7 +3,11 @@
 <!-- simple-start:start -->
 See what network traffic passes through an adapter you control.
 
-**Start here.** Pick a test adapter and try the included capture example.
+[First steps](#first-steps) · [Develop](#sdk-and-packages) · [Maintain](https://github.com/TitanCSA/sdk-packages/blob/main/CONTRIBUTING.md)
+
+## First steps
+
+Pick a test adapter and try the included capture example.
 <!-- simple-start:end -->
 
 <!-- full-version-contact:start -->
@@ -107,32 +111,11 @@ Npcap, Windows Packet Monitor and WinDivert already serve important capture/filt
 Use only on systems and networks you own or are authorized to administer. Captured frames may contain sensitive data; no packet content is uploaded by the application or SDK. You remain responsible for lawful deployment and handling of data and access keys. Software is supplied without warranty; applicable licenses and mandatory statutory rights govern limitations.
 
 <!-- central-sdk-packages:start -->
-## Paquets et installation
+<a name="paquets-et-installation"></a>
 
-Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK dedie](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Packet-Capture-SDK). Choisis le paquet a installer puis execute sa commande dans son dossier.
+## SDK and packages
 
-| Registre | Paquet | Installation / utilisation |
-| --- | --- | --- |
-| vcpkg | `packet-capture-sdk` | `vcpkg install packet-capture-sdk:x64-windows` |
-| Conan | `packet-capture-sdk` | `conan install --requires=packet-capture-sdk/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
-| NuGet | `Packet-Capture-SDK.Native` | `Install-Package Packet-Capture-SDK.Native -Version 0.1.1` |
-| NuGet | `PacketCaptureSDK.SDK` | `dotnet add package PacketCaptureSDK.SDK --version 1.0.0` |
-| PyPI | `packet-capture-sdk` | Commande prevue apres publication : `python -m pip install packet-capture-sdk==1.0.0` |
-| Conda | `packet-capture-sdk` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge packet-capture-sdk` (canal TitanCSA) |
-| crates.io | `packet-capture-sdk` | `cargo add packet-capture-sdk@1.0.0` |
-| npm | `packet-capture-sdk` | Commande prevue apres publication : `npm install packet-capture-sdk@1.0.0` |
-| Maven Central | `io.github.titancsa:packet-capture-sdk` | `io.github.titancsa:packet-capture-sdk:1.0.0 (pom.xml / Gradle)` |
-| JitPack | `com.github.titanfyre:Packet-Capture-SDK` | `com.github.titanfyre:Packet-Capture-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| Go Modules | `github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules` | `go get github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules@v1.0.0` |
-| pkg.go.dev | `github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Packet-Capture-SDK/Packet-Capture-SDK-Go-modules@v1.0.0` |
-| PowerShell Gallery | `PacketCaptureSDK` | `Install-Module PacketCaptureSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| pub.dev | `packet_capture_sdk` | Commande prevue apres publication : `dart pub add packet_capture_sdk:1.0.0` |
-| RubyGems | `packet-capture-sdk` | `gem install packet-capture-sdk -v 1.0.0` |
-| Packagist | `titancsa/packet-capture-sdk` | `composer require titancsa/packet-capture-sdk:1.0.0` |
-
-Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Packet-Capture-SDK/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
-
-Les anciens imports Go et versions JitPack gardent leurs tags. Pour les anciennes archives SDK, utilise [les liens de remplacement](https://github.com/TitanCSA/sdk-packages/blob/main/release-assets/URL-MIGRATION.json).
+Choose a language in the [SDK and package guide](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Packet-Capture-SDK#readme) for exact install commands and examples. If your example requires a driver or app, install it separately.
 <!-- central-sdk-packages:end -->
 
 ## Commercial integration and support
